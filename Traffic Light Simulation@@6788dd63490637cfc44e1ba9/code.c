@@ -8,8 +8,11 @@ int main() {
     else if(light=="G"){
         printf("Go");
     }
-    else{
+    else if(light=="Y"){
         printf("Slow Down");
+    }
+    else{
+        printf("Invalid input")
     }
     return 0;
 }
