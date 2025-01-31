@@ -9,7 +9,7 @@ int main() {
         printf("Go");
     }
     else{
-        printf("Slow Down")
+        printf("Slow Down");
     }
     return 0;
 }
