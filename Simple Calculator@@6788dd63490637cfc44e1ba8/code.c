@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main() {
-    int a,b;
-    char c;
-   scanf("%d%d%c",&a,&b,&c);
-   if(c=='+'){
+    int a,b,n;
+    
+   scanf("%d%d%d",&a,&b,&n);
+   if(n==+){
     printf("%f",a+b);
    }
-   else if(c=='-'){
+   else if(n==-){
     printf("%f",a-b);
    }
-   else if(c=='/'){
+   else if(n==/){
     printf("%f",a/b);
    }
-   else if(c=='*'){
+   else if(n==*){
     printf("%f",a*b);
    }
    else{
