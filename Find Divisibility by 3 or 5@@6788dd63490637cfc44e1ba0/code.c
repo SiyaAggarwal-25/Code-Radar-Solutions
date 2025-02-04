@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int n;
-    printf("%d",&n);
+    scanf("%d",&n);
     if(n%3==0){
         printf("Divisible by 3");
     }
