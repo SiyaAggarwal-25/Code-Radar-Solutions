@@ -2,11 +2,11 @@
 int main() {
     int m;
     scanf("%d",&m);
-    if(m>=0){
-        printf("Positive");
+    if(m<=0){
+        printf("Negative");
     }
     else{
-        printf("Negative");
+        printf("Positive");
     }
     return 0;
 }
