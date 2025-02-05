@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int n,i;
-    printf("%d%d", &n,&i);
+    scanf("%d%d", &n,&i);
     if(n>>i&(1)){
         printf("1");
     }
