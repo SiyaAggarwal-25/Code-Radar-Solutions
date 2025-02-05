@@ -1,21 +1,22 @@
 #include <stdio.h>
 int main{
     float n;
+    char c=A,b=B,a=C,d=D,f=F;
     scanf("%f",&n);
     if(n>=90){
-        printf("A");
+        printf("%C",c);
     }
     else if(n>=80||n<90){
-        printf("B");
+        printf("%c",b);
     }
     else if (n>=70||n<80){
-        printf("C");
+        printf("%c",a);
     }
     else if (n>=60||n<70){
-        printf("D");
+        printf("%d",d);
     }
     else{
-        printf("F");
+        printf("%f",f);
     }
     return 0;
 }
