@@ -5,7 +5,7 @@ scanf("%d",&n);
 while(i<=10){
     
     result=n*i;
-     printf("%d x %d = %d\n"n,i,result);
+     printf("%d x %d = %d\n",n,i,result);
      i++;
 }
 
