@@ -3,18 +3,24 @@ int main() {
     int a,b,n;
     
    scanf("%d%d%d",&a,&b,&n);
-   if(n==+){
+   switch(n){
+    case'+':
     printf("%f",a+b);
-   }
-   else if(n==-){
+    break;
+     case'-':
     printf("%f",a-b);
-   }
-   else if(n==/){
-    printf("%f",a/b);
-   }
-   else if(n==*){
+    break;
+     case'*':
     printf("%f",a*b);
+    break;
+     case'/':
+    printf("%f",a/b);
+    break;
+    default:
+    printf("Error");
+    break;
    }
+  
    else{
     printf("Error");
    }
