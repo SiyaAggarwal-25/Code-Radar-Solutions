@@ -4,4 +4,5 @@ int main(){
     scanf("%d%d",&a,&b);
     int c=(a<<)b&1;
     printf("%d",c);
+    return 0;
 }
