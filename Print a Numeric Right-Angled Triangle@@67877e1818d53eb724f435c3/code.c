@@ -9,7 +9,7 @@ int main(){
             if(i==j)
                 break;
         }
-print("\n");
+printf("\n");
     }
     return 0;
 }
