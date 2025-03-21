@@ -6,8 +6,7 @@ int main(){
     for(i='A';i<=n;i++){
         for(j='A';j<=n;j++){
             printf("%c ",j);
-            if(i==j)
-            break;
+        
         }
         printf("\n");
     }
