@@ -9,7 +9,7 @@ int main(){
     }
         largest=array[0];
         for(int i =0;i<n;i++){
-            if((array[i]%2==0)>largest){
+            if((array[i]%2 && array[i])>largest){
                 printf("%d",array[i]);
             }
         
