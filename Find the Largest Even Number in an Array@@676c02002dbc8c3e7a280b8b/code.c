@@ -6,10 +6,10 @@ int main(){
     int array[n];
     for(int i=0;i<n;i++){
         scanf("%d",&array[n]);
-        largest=a[0];
+        largest=array[0];
         for(i =0;i<n;i++){
-            if(a[i]%2==0>largest){
-                printf("%d",a[i]);
+            if(array[i]%2==0>largest){
+                printf("%d",array[i]);
             }
         }
     }
